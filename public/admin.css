@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(180deg, #e8f5e9 0%, #bbdefb 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(90deg, #1b5e20, #2e7d32);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* CARD */
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #2e7d32, #43a047);
+  color: white;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* TABLE */
+.table-container {
+  padding: 20px;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #2e7d32;
+  border-bottom: 2px solid #e8f5e9;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.table tbody tr {
+  transition: all 0.2s;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f8e9;
+}
+
+/* AVATAR */
+.avatar {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+/* BADGE ROLE */
+.badge-admin {
+  background: linear-gradient(90deg, #1565c0, #1e88e5);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.badge-user {
+  background-color: #6c757d;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+.btn-delete {
+  border-radius: 8px;
+  padding: 5px 12px;
+  transition: 0.3s;
+}
+
+.btn-delete:hover {
+  box-shadow: 0 4px 10px rgba(220, 53, 69, 0.3);
+}
+
+.btn-logout {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 5px 15px;
+}

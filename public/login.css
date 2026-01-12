@@ -1,0 +1,66 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b5e20 0%, #1565c0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* LOGIN CARD */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  overflow: hidden;
+  background: white;
+}
+
+/* HEADER */
+.login-header {
+  background: linear-gradient(90deg, #2e7d32, #1e88e5);
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.icon-main {
+  font-size: 3rem;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #1565c0;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-primary:hover {
+  background: #0d47a1;
+}
+
+/* MODAL */
+.modal-rounded {
+  border-radius: 20px;
+}
+
+.modal-icon {
+  font-size: 3rem;
+}
+
+/* API KEY BOX */
+.api-key-box {
+  background: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+.api-key-text {
+  word-break: break-all;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b5e20 0%, #1565c0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* REGISTER CARD */
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  background: white;
+  overflow: hidden;
+}
+
+/* HEADER */
+.register-header {
+  background: linear-gradient(90deg, #2e7d32, #1e88e5);
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.icon-main {
+  font-size: 3rem;
+}
+
+/* BUTTON */
+.btn-register {
+  border-radius: 10px;
+  padding: 12px;
+  background: #2e7d32;
+  border: none;
+}
+
+.btn-register:hover {
+  background: #1b5e20;
+}
+
+/* MODAL */
+.modal-rounded {
+  border-radius: 20px;
+}
+
+.modal-icon {
+  font-size: 4rem;
+}
+
+/* API KEY */
+.api-key-box {
+  background: #f8f9fa;
+}
+
+.api-key-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1565c0;
+  word-break: break-all;
+}
